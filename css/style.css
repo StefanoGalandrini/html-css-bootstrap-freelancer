@@ -1,12 +1,6 @@
 :root {
     --clr_main: #2C3E50;
     --bg_main: #1ABC9C;
-    --bg_card_1: #BA4B63;
-    --bg_card_2: #1EA4B6;
-    --bg_card_3: #140F0F;
-    --bg_card_4: #1C83C1;
-    --bg_card_5: #0E38B5;
-    --bg_card_6: #1E1E1E;
     --bg_location: #3A546D;
 
 }
@@ -16,16 +10,24 @@ header {
     background-color: var(--clr_main);
     color: white;
     padding: 1.5rem 0;
+    min-width: 290px;
+    overflow: hidden;
 }
 
 .title {
-    text-transform: uppercase;
-    font-weight: bold;
     white-space: nowrap;
 }
 
 header .menu {
-    text-transform: uppercase;
-    font-weight: normal;
     white-space: nowrap;
+}
+
+section.hero {
+    background-color: var(--bg_main);
+    color: white;
+    /* padding: 1rem 0; */
+}
+
+section.hero .avatar {
+    max-width: 300px;
 }
