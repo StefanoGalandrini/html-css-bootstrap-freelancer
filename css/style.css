@@ -1,10 +1,8 @@
 :root {
     --clr_main: #2C3E50;
     --bg_main: #1ABC9C;
-    --bg_location: #3A546D;
-
+    --bg_address: #3A546D;
 }
-
 
 header {
     background-color: var(--clr_main);
@@ -48,4 +46,27 @@ section.contact p {
 
 section.contact p.space {
     padding-bottom: 10rem;
+}
+
+section.address {
+    background-color: var(--bg_address);
+    color: white;
+}
+
+section.address .social {
+    width: 3rem;
+    height: 3rem;
+    aspect-ratio: 1 / 1;
+}
+
+section.address .social i {
+    line-height: 3rem;
+}
+
+section.address .social:not(:last-child) {
+    margin-right: 1rem;
+}
+
+section.address .accent {
+    color: var(--bg_main);
 }
