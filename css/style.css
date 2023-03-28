@@ -41,3 +41,11 @@ section.about {
      background-color: var(--bg_main);
      color: white;
 }
+
+section.contact p {
+    border-bottom: 1px solid black;
+}
+
+section.contact p.space {
+    padding-bottom: 10rem;
+}
