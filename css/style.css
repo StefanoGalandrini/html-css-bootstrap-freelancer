@@ -70,3 +70,8 @@ section.address .social:not(:last-child) {
 section.address .accent {
     color: var(--bg_main);
 }
+
+footer {
+    background-color: var(--clr_main);
+    color: white;
+}
