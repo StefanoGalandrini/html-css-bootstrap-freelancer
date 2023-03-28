@@ -12,3 +12,20 @@
 }
 
 
+header {
+    background-color: var(--clr_main);
+    color: white;
+    padding: 1.5rem 0;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+header .menu {
+    text-transform: uppercase;
+    font-weight: normal;
+    white-space: nowrap;
+}
