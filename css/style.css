@@ -31,3 +31,9 @@ section.hero {
 section.hero .avatar {
     max-width: 300px;
 }
+
+section.portfolio img {
+    max-width: 100%;
+    object-fit: cover;
+
+}
