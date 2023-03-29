@@ -34,6 +34,29 @@ section#portfolio img {
     object-fit: cover;
 }
 
+section#portfolio .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    transition: opacity 300ms;
+}
+
+section#portfolio .parent:hover .overlay {
+    opacity: 1;
+}
+
+
 section#about {
     background-color: var(--bg_main);
     color: white;
