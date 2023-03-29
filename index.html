@@ -152,18 +152,26 @@
             <div class="col-md-12 text-center pb-2 fs-1 fw-bold">&#8213;&#8213;&#8213; &#9733; &#8213;&#8213;&#8213;
         </div>
             <div class="text w-75 mx-auto py-3 py-md-3">
-                <div class="row">
-                    <div class="col-12">
-                        <p class="pb-4 mb-4">Name</p>
-                        <p class="pb-4 mb-4">Email Address</p>
-                        <p class="pb-4 mb-4">Phone Number</p>
-                        <p class="space">Message</p>
+                <form>
+                    <div class="mb-1">
+                        <label for="full_name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="full_name">
                     </div>
-                    <div class="col-1">
-                        <button type="button" class="btn btn-success">Send</button>
-                        <div class="p-2 p-md-4"></div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
                     </div>
-                </div>
+
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" id="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Send</button>
+                </form>
             </div>
         </div>
     </section>
@@ -196,9 +204,7 @@
 
                 <div class="col-12 col-md-4 text-center fs-5 fs-md-2">
                     <p class="text-uppercase mt-5 mt-md-0">about freelancer</p>
-                    <p class="mb-5">Freelance is a free to use, open source Bootstrap theme created by <span
-                            class="accent">Start
-                            Bootstrap</span></p>
+                    <p class="mb-5">Freelance is a free to use, open source Bootstrap theme created by <a class="accent">Start Bootstrap</a></p>
                 </div>
             </div>
         </div>
