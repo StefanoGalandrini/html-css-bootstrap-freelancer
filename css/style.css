@@ -29,21 +29,21 @@ section.hero .avatar {
     max-width: 300px;
 }
 
-section.portfolio img {
+section#portfolio img {
     max-width: 100%;
     object-fit: cover;
 }
 
-section.about {
+section#about {
     background-color: var(--bg_main);
     color: white;
 }
 
-section.contact p {
+section#contact p {
     border-bottom: 1px solid black;
 }
 
-section.contact p.space {
+section#contact p.space {
     padding-bottom: 10rem;
 }
 
