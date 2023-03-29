@@ -7,7 +7,7 @@
 header {
     background-color: var(--clr_main);
     color: white;
-    padding: 1.5rem 0;
+    /* padding: 1.5rem 0; */
     min-width: 290px;
     overflow: hidden;
 }
@@ -36,8 +36,8 @@ section.portfolio img {
 }
 
 section.about {
-     background-color: var(--bg_main);
-     color: white;
+    background-color: var(--bg_main);
+    color: white;
 }
 
 section.contact p {
