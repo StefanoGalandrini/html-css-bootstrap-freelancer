@@ -4,6 +4,33 @@
     --bg_address: #3A546D;
 }
 
+.separator.light {
+    --color: white;
+}
+
+.separator.dark {
+    --color: var(--clr_main);
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-inline: auto;
+    color: var(--color);
+    font-size: 20px;
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    flex-grow: 1;
+    display: block;
+    height: 3px;
+    background-color: var(--color);
+    border-radius: 5px;
+}
+
 header {
     background-color: var(--clr_main);
     color: white;
